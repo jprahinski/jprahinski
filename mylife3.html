@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html> 
+
+<head> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <title> Layout </title>
+
+    <style>     
+            * {font-family: 'Questrial', sans-serif;}
+
+        ul {border: solid 2px blue;
+            display: inline-block;
+            list-style:none;
+            padding-left: 0;
+            margin-top: 0;
+            margin-left: 425px;}
+
+            li a {width: 200px;
+                display: block;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+                background-color: turquoise;
+                color: white;
+                text-decoration: none;}
+
+            li a.current {background-color: blue;}
+
+            li a:hover:not(.current) {
+                background-color: lightcoral;
+                color: black;}
+
+            li {float: left;}     
+    </style>
+</head>
+
+    <head> 
+        <ul> 
+            <li> <a href="mylife.html"> Home </a> </li>
+            <li> <a href="mylife2.html"> Career Goals </a> </li>
+            <li> <a class="current" href="mylife3.html"> Resume </a></li>
+        </ul>
+
+    </head>
+
+    <body> 
+
+        <div class="center"> 
+        <iframe src="October_2022_Resume.pdf" 
+        width="700" length="350" height="700"> 
+    
+    </iframe>
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+        <style> 
+       * {font-family: 'Questrial', sans-serif;}
+
+       .header
+        {border:5px solid #18dcff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px; 
+        padding-right: 20px;
+        text-align: center;
+        background-color: #fab1a0;}
+
+        .main-body {border:5px solid darkblue; display:flex; flex-direction: column;}
+
+         ul {border: solid 2px lightblue;
+            display: inline-block;
+            list-style:none;
+            padding-left: 0;
+            margin-top: 0;
+            margin-left: 425px;}
+
+            li a {width: 200px;
+                display: block;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+                background-color: turquoise;
+                color: white;
+                text-decoration: none;}
+
+            li a.current {background-color: blue;}
+
+            li a:hover:not(.current) {
+                background-color: lightcoral;
+                color: black;}
+
+            li {float: left;}
+
+        .div1 {flex:1;background-color:#7ed6df; padding-top:15px; padding-bottom:15px; 
+            border:5px solid darkblue; display:flex; flex-direction: row; padding-top:30px; padding-bottom:30px;}
+            .para1 {padding-left: 20px; padding-right: 20px;}
+
+        .div2 {flex:1; background-color:#7ed6df; padding-top:15px; padding-bottom:15px;
+            border:5px solid darkblue; display:flex; flex-direction: row; padding-top:30px; padding-bottom:30px;  }
+            .para2 {padding-left: 20px; padding-right: 20px;}
+
+        .div3 {flex:1; background-color:#7ed6df; 
+            border:5px solid darkblue; display:flex; flex-direction: row; padding-top:30px; padding-bottom:30px; }
+            .para3 {padding-left: 20px; padding-right: 20px;}
+            
+        .div4 {flex:1; background-color: #7ed6df; padding-top: 15px; padding-bottom: 15px;
+            border:5px solid darkblue; display:flex;  padding-top:30px; padding-bottom:30px; padding-left: 20px; padding-right: 20px;}
+            .para4 {padding-left: 20px; padding-right: 20px; text-align: center;}
+
+        .heading1 {padding-left: 20px; padding-right: 20px;}
+
+        .heading2 {padding-left: 20px; padding-right: 20px;}
+
+        .heading3 {padding-left: 20px; padding-right: 20px;}
+
+        .heading4 {padding-left: 20px; padding-right: 20px;}
+
+        .ending {padding-left: 50px; padding-right: 50px; }
+
+        .footer {flex:1; background-color: #fab1a0; padding-top: 15px; padding-bottom: 15px;
+            border:5px solid #18dcff; display:flex; padding-top:30px; padding-bottom:30px; padding-left: 20px; padding-right: 20px;}
+
+        </style>
+    </head> 
+
+    <body> 
+        <ul> 
+            <li> <a class="current" href="mylife.html"> Home </a> </li>
+            <li> <a href="mylife2.html"> Career Goals </a> </li>
+            <li> <a href="mylife3.html"> Resume </a></li> 
+        </ul>
+        
+        <div class="header">
+            <h1 class="heading">My Life | Jack Prahinski</h1>
+            <img src = "android-chrome-192x192.png" width = "100">
+        </div>
+
+        <div class = "main-body"> 
+            <div class="div1"> 
+                <h2 class="heading1"> Introduction </h2> 
+                <p  class="para1"> I was born on an American Army base Würzburg, Germany. My dad was stationed as a U.S. Army Doctor at the time. I do not remember living in Germany. 
+                I wasraised and have lived most of my life in Lynchburg, Virginia. I went to Virginia Episocpal School. I am currently studying Journalism and 
+                Sport Management at Elon University. I hope to be a Journalist covering colleigate or proffesional basketball. </p>
+            </div>
+        
+            <div class="div2">
+               <h2 class="heading2">  Interests & Hobbies </h2>
+                <p class="para1"> I currently work for our student run PR firm Live Oak Communications and with Elon Athletics Communications as a 
+                    PA Announcer. I have linked some more information about Live Oak. <a href="https://www.liveoakcommunications.com/" 
+                    target="_blank"> Live Oak Communications</a></p> 
+
+                <p class="para3"> I also record NBA podcasts from time to time. This is my most recent recording. </p>
+                <audio width="320" height="240" controls> 
+                    <source src="nbashowep7.mp3"> 
+                    </audio>
+                </div>
+
+                <div class="div3"> 
+                     <h2 class="heading1">  Family and Freind Life </h2>
+                    <p class="para3" >I am an only child. My mom's name is Monica. 
+                         My dad's name is John. Below is a picture of me and my family.</p> 
+                         <img src="IMG_6654.jpeg" height="300">
+
+                   
+                    </p class="para3"> Below is a video of me and my freind Bo using American flags to draw the Disney Channel logo.</p>
+                    <p> Video Error -- Ask Professor Shim </p>  
+                </div>
+                       
+
+                 <div class="div4"> 
+                     <h2> Sports Fandom | The Milwaukee Bucks </h2>
+                        <iframe height="200" length="200" src="https://www.youtube.com/embed/UqzDVZFdVyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <p class="para4"> My favorite team is the Milwaukee Bucks. Giannis Antetokounmpo is one of my idols.
+                            He has a very strong work ethic and has an inspirational rags to riches story.
+                            Below is a video of Giannis willing the Bucks to an NBA championship by scoring 50 points in the closeout game 6.</p> 
+                </div>
+        </div>  
+
+        <div class="footer">
+            <h2 class="footer"> Sport Industry Career Goals </h2>
+            <p class="ending"> On the page entitled Career goals, my Digital CV goes into depth on what I have done and hope to accomplish in my life and career. </p>
+        </div>
+        
+        
+       
+
+        
+
+    </body>
+
+</html>

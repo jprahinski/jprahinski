@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+        <title> Layout </title>
+        <style>
+            * {font-family: 'Questrial', sans-serif;}
+
+            * {box-sizing: border-box; }
+
+           .header { border:5px solid blue;margin-bottom: 5px;display:flex; padding-bottom:30px; padding-top:30px; }
+
+           .begeinning {padding-left: 20px; padding-right: 20px;}
+
+           .main-body {border:5px solid blue; display:flex; flex-direction: row; padding-top:30px; padding-bottom:30px; }
+
+           .div1 {flex:1;background-color:#7ed6df;}
+
+           .div2 {flex:1; background-color:#fab1a0;}
+
+           .div3 {flex:1; background-color:#7ed6df}
+
+           .photo1 {padding-left: 25px;}
+
+           .photo2 {padding-left: 25px;}
+
+           .photo3 {padding-left:25px;}
+
+           .heading1 {padding-left: 20px; padding-right: 20px;}
+
+           .para1 {padding-left: 20px; padding-right: 20px;}
+
+           .heading2 {padding-left: 20px; padding-right: 20px;}
+
+           .para2 {padding-left: 20px; padding-right: 20px;}
+
+           .heading3 {padding-left: 20px; padding-right: 20px;}
+
+           .para3 {padding-left: 20px; padding-right: 20px;}
+
+           .ending {padding-left: 50px; padding-right: 50px;}
+
+           .footer {display:flex; padding-top: 30px;
+            padding-bottom:30px; border:5px solid blue; margin: bottom 5px; }
+
+            ul {border: solid 2px blue;
+            display: inline-block; 
+            padding-left: 0;
+            margin-top: 0;
+            margin-left: 425px;
+            list-style: none;}
+
+            li a {width: 200px; 
+                display: block;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+                background-color: turquoise;
+                color: white;
+                text-decoration: none;}
+
+            li a.current {background-color: blue;}
+
+            li a:hover:not(.current) {
+                background-color: lightcoral;
+                color: black;}
+
+            li {float: left;}
+        </style>
+    </head>
+
+    <body>
+
+        <ul>
+        <li> <a href="mylife.html"> Home </a> </li>
+        <li> <a class="current" href="mylife2.html"> Career Goals </a> </li>
+        <li> <a href="mylife3.html"> Resume </a></li>
+        </ul>
+
+       <div class="header"> <h2 class="begeinning"> My Goal to Eventually be in the Sport Journalism and Athletics Industry </h2> </div>
+       
+       <div class="main-body">
+            <div class="div1"> 
+                <h2 class="heading1"> My Passion for Sport </h2> 
+                
+                <p  class="para1"> Sports have been my biggest passion for a while. Growing up around an hour from the University of Virginia allowed me to watch many high level 
+                    football and basketball games with my dad who was very passionate about it allowed me to not only learn and understand the game but also
+                    come to love it. Through sport, I have learned that I want to be a broadcaster. One of my biggest broadcaster role models is Wes Durham '98 who is 
+                    an alumni of the Elon University Communications school. </p>
+                    <img class="photo1"
+                src="IMG_2671.jpeg" width="450" >
+            </div>
+                
+            <div class="div2"> 
+                <h2 class="heading2"> Internship with Liberty Athletics Communications  </h2>
+                <p class="para2"> Interning for Liberty University Athletics Communications this previous summer has allowed me to learn a lot about the industry 
+                    that I hope to go into one day. I learned how to use Photo Shelter, Adobe Acrobat Pro, and Dropbox for multiple creative projects. 
+                    I also assisted with Student-Athlete Summer Bridge program media training, Men’s Basketball Press Conferences, 
+                    and the Football Media Week Pronunciation Guide. It has inspired me to continue my goal to work in Athletics and around sport. </p>
+                    <img class="photo2"
+                src="IMG_3612.jpeg" width="450">
+            </div>
+
+            <div class="div3"> 
+                <h2 class="heading3"> Work Expereince with Elon Athletics Communications </h2>
+                <p class="para3"> I am currently working as a Public Address Announcer for the Elon Athletics Communications. It has been cool to hone my own broadcasting voice 
+                    and announcing in front of a large crowd for the first time. This has been a dream of mine for a while. It has been an unreal expereince so far. </p>
+                <img class="photo3"
+                src="IMG_4220.jpeg" width="450">
+            
+            </div>
+        </div>
+
+       <div class="footer">
+            <h2 class="ending"> With the track I am currently on, I know that I am setting myself up for success in the sport journalism and
+                athletics industry by networking with professionals in the industry and making the most of every opputunity
+                I have. I look forward to continuing my career in the sport and athletics industry. </h2> 
+       </div>
+
+    </body>
+</html>
