@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Jack Prahinski </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+        <style> 
+       * {font-family: 'Questrial', sans-serif;}
+
+       .header
+        {border:5px solid darkblue;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px; 
+        padding-right: 20px;
+        margin-top: 5px; 
+        margin-bottom: 5px; 
+        text-align: center;
+        background-color: #fab1a0;}
+
+        .main-body { display:flex; flex-direction: column; margin-top: 5px; margin-bottom: 5px; }
+
+         ul {border: solid 2px lightblue;
+            display: inline-block;
+            list-style:none;
+            padding-left: 0;
+            margin-top: 0;
+            margin-left: 425px;}
+
+            li a {width: 200px;
+                display: block;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+                background-color: turquoise;
+                color: white;
+                text-decoration: none;}
+
+            li a.current {background-color: blue;}
+
+            li a:hover:not(.current) {
+                background-color: lightcoral;
+                color: black;}
+
+            li {float: left;}
+
+        .div1 {flex:1;background-color:#7ed6df; padding-top:15px; padding-bottom:15px; 
+            border:5px solid darkblue; display:flex; flex-direction: row; padding-top:30px; padding-bottom:30px; margin-top: 5px; margin-bottom: 5px; }
+            .para1 {padding-left: 20px; padding-right: 20px;}
+
+        .div2 {flex:1; background-color:#7ed6df; padding-top:15px; padding-bottom:15px;
+            border:5px solid darkblue; display:flex; flex-direction: row; padding-top:30px; padding-bottom:30px; margin-top: 5px; margin-bottom: 5px;  }
+            .para2 {padding-left: 50px; padding-right: 15px;}
+
+        .div3 {flex:1; background-color:#7ed6df; 
+            border:5px solid darkblue; display:flex; flex-direction: row; padding-top:30px; padding-bottom:30px; margin-top: 5px; margin-bottom: 5px;  }
+            .para3 {padding-left: 70px; padding-right: 10px;}
+            
+        .div4 {flex:1; background-color: #7ed6df; padding-top: 15px; padding-bottom: 15px;
+            border:5px solid darkblue; display:flex;  padding-top:30px; padding-bottom:30px; margin-top: 5px; margin-bottom: 5px;  }
+            .para4 {padding-left: 20px; padding-right: 10px; }
+
+        .heading1 {padding-left: 10px; padding-right: 10px;}
+
+        .heading2 {padding-left: 10px; padding-right: 5px;}
+
+        .heading3 {padding-left: 10px; padding-right: 0px;}
+
+        .heading4 {padding-left: 10px; padding-right: 15px;}
+
+        .heading5 {padding-left: 5px; padding-right: 15px;}
+
+       
+
+        .audiobar {margin-right: 15px; margin-left: 15px;}
+            
+        .photo1 {width: 300px;
+        height: 400px;
+        margin-right: 15px;   
+        border: 2px solid darkblue;}
+
+        .photo2 {width: 300px;
+            height:400px;
+            margin-right: 15px;  
+            border: 2px solid darkblue;}
+
+        .photo3 {width: 300px;
+            height: 400px;
+            margin-right: 15px;   
+            border: 2px solid darkblue;}
+
+        .Giannisvideo{padding-left: 15px; padding-right: 15px;}
+
+        </style>
+    </head> 
+
+    <body> 
+        <ul> 
+            <li> <a class="current" href="mylife.html"> Home </a> </li>
+            <li> <a href="mylife2.html"> Career Goals </a> </li>
+            <li> <a href="mylife3.html"> Resume </a></li> 
+        </ul>
+        
+        <div class="header">
+            <h1 class="heading"> Digital CV | Jack Prahinski</h1>
+            <img src = "android-chrome-192x192.png" width = "100">
+        </div>
+
+        <div class = "main-body"> 
+            <div class="div1"> 
+                <h2 class="heading1"> Introduction </h2> 
+                <p  class="para1"> I was born on an American Army base Würzburg, Germany. My dad was stationed as a U.S. Army Doctor at the time. I do not remember living in Germany. 
+                I was raised and have lived most of my life in Lynchburg, Virginia. I went to Virginia Episocpal School. I am currently studying Journalism and 
+                Sport Management at Elon University. I hope to be a Journalist covering colleigate or proffesional basketball. </p>
+            </div>
+        
+            <div class="div2">
+               <h2 class="heading2">  Interests & Hobbies </h2>
+                <p class="para2"> I currently work for our student run PR firm Live Oak Communications and with Elon Athletics Communications as a 
+                    PA Announcer. I have linked some more information about Live Oak. <a href="https://www.liveoakcommunications.com/" 
+                    target="_blank"> Live Oak Communications.</a> I also record NBA podcasts from time to time. My most recent 
+                    recording can be played on the right. </p> 
+
+                <audio width="500" height="500" controls> 
+                    <source class="audiobar" src="nbashowep7.mp3"> 
+                    </audio>
+                </div>
+
+                <div class="div3"> 
+                     <h2 class="heading3">  Family, Idols & Freinds </h2>
+                    <p class="para3" >I am an only child. My mom's name is Monica. 
+                         My dad's name is John. On the left is a picture of me and my family. In the middle picture, I am with NBA Broadcasteing 
+                         legend, Ernie Johnson, at the 2022 NBA Finals. The picture on the right shows me and my 
+                         freinds; Jack, Xander, Wolfgang, and Hardt at Waffle House in Virginia.
+                         </p> 
+                         <img class="photo1" src="IMG_6654.jpeg" height="300">
+                         <img class="photo2" src="IMG_2144.jpeg" height="300">
+                         <img class="photo3" src="IMG_3918.jpeg" height="300">
+
+                </div>
+
+                 <div class="div4"> 
+                     <h2 class="heading4"> Sports Fandom: The Milwaukee Bucks </h2>
+                     <p class="para4"> My favorite team is the Milwaukee Bucks. Giannis Antetokounmpo is one of my idols.
+                        He has a very strong work ethic and has an inspirational rags to riches story.
+                        Here is a video of Giannis willing the Bucks to an NBA championship by scoring 50 points in the closeout game 6.</p> 
+                        <iframe class="Giannisvideo" height="200" length="200" src="https://www.youtube.com/embed/UqzDVZFdVyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+        </div>  
+
+       
+        
+        
+       
+
+        
+
+    </body>
+
+</html>
